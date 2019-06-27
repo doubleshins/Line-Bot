@@ -88,7 +88,8 @@ v10.16.0
 - 1. 進入LINE Developer後點選右上角的Log in 並以你的LINE帳號登入
 - 2. 輸入開發者信息
 - 3. 選擇「Create New Provider」
-######### Provider可想像成是一個公司或是團隊層級的帳號，LINE Bot會被綁在這組Provider帳號底下，若我們只是想嘗試建置Bot，可輸入任何一個尚未被使用過的名稱即可。
+## Provider可想像成是一個公司或是團隊層級的帳號，LINE Bot會被綁在這組Provider帳號底下
+## 若我們只是想嘗試建置Bot，可輸入任何一個尚未被使用過的名稱即可
 
 ## 參考資料
 - 使用Node.js建置你的第一個LINE BOT : https://medium.com/pyradise/%E4%BD%BF%E7%94%A8node-js%E5%BB%BA%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E5%80%8Bline-bot-590b7ba7a28a
