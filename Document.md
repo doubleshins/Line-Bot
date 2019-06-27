@@ -1,10 +1,15 @@
 ## Node.js 及 NPM
 - Node.js 官網 : https://nodejs.org
 
-## 介紹
-- nodejs的LINE Messaging API SDK使用LINE Messaging API輕鬆開發機器人，您可以在幾分鐘內創建一個樣本機器人。
+- Node.js 官方現在提供兩種版本：LTS 及 Current
+- LTS : Long term support ，意指是當前穩定且會長期維護的版本，在撰文的當下 Node.js 是 10.16.0 版而 NPM 是 5.5.1 版。
+- Current : 則是指目前最新版，可以拿到最新的功能 (Feature)。
+
+- 對比於 PHP (程式語言) 和 Composer (相依管理工具) 之間的關係，在 Javascript 的世界裡就是 Node.js 和 NPM
+
+## Nodejs的LINE Messaging API SDK使用LINE Messaging API輕鬆開發機器人
 - Node.js 8或更高版本
-- 對比於 PHP (程式語言) 和 Composer (相依管理工具) 之間的關係，在 Javascript 的世界裡就是 Node.js 和 NPM。由於 Node.js 的生態圈現在非常的活躍且更迭迅速，NPM 這種套件相依管理工具就變得尤其重要。因此官方在釋出安裝檔時，已經綁定 Node.js 及 NPM，在安裝時會一併安裝。
+
 
 ## 其他語言架設範例，請參閱以下 LINE Bot SDK repositories
 - PHP : https://github.com/line/line-bot-sdk-php
@@ -22,13 +27,13 @@
 # apt-get install nodejs
 ```
 
-#### 來自Ubuntu存儲庫的Node.js可執行文件被命名，nodejs而不是node因為與另一個包衝突。要驗證安裝，請執行以下命令：
+#### 來自Ubuntu存儲庫的Node.js。要驗證安裝，請執行以下命令：
 ```
 # nodejs --version
 ```
 
 ```
-
+v8.10.0
 ```
 
 ## NPM是隨同NodeJS一起安裝的包管理工具，能解決NodeJS代碼部署上的很多問題，常見的使用場景有以下幾種：
@@ -38,6 +43,16 @@
 ```
 # apt-get install npm
 ```
+
+#### 鍵入以下命令驗證安裝：
+```
+# npm --version
+```
+
+```
+3.5.2
+```
+
 
 #### 基本上以上的步驟已經安裝好 Node.js 及 NPM，不過因為 NPM 有時候會需要在本機端編譯一些套件，所以會建議把編譯套件 (build-essential) 也裝起來。
 ```
