@@ -1,3 +1,8 @@
+## 介紹
+- nodejs的LINE Messaging API SDK使用LINE Messaging API輕鬆開發機器人，您可以在幾分鐘內創建一個樣本機器人。
+- Node.js 8或更高版本
+
+
 ## 語言架設範例 bot，請參閱以下 LINE Bot SDK repositories
 - PHP : https://github.com/line/line-bot-sdk-php
 - Go : https://github.com/line/line-bot-sdk-go
@@ -5,6 +10,8 @@
 - Ruby : https://github.com/line/line-bot-sdk-ruby
 - Python : https://github.com/line/line-bot-sdk-python
 - Node.js : https://github.com/line/line-bot-sdk-nodejs
+
+
 
 ## step 1 : Update Ubuntu
 ```
