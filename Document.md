@@ -52,18 +52,47 @@ v8.10.0
 3.5.2
 ```
 
+## 5. 從NodeSource存儲庫安裝Node.js
+- NodeSource是一家專注於提供企業級Node支持的公司，他們維護一個包含最新版本Node.js的存儲庫
+- 將NodeSource簽名密鑰添加到您的系統，創建apt源存儲庫文件，安裝所有必需的包並刷新apt緩存
+```
+# curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+```
+
+- 或者
+```
+# curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+# bash nodesource_setup.sh
+```
+
+- 啟用NodeSource存儲庫後，鍵入以下命令安裝Node.js和npm：
+```
+# apt-get install -y nodejs
+
+# nodejs --version
+v10.16.0
+
+# npm --version
+6.9.0
+```
 
 - 基本上以上的步驟已經安裝好 Node.js 及 NPM，不過因為 NPM 有時候會需要在本機端編譯一些套件，所以會建議把編譯套件 (build-essential) 也裝起來。
 ```
 # apt-get install build-essential
 ```
 
-## 5.從NodeSource存儲庫安裝Node.js
-- NodeSource是一家專注於提供企業級Node支持的公司，他們維護一個包含最新版本Node.js的存儲庫。
+## 6. 註冊LINE Channel
+- 想要建置LINE Bot首先你必須要有一個LINE Channel作為使用者跟Bot對答的帳號
+- LINE Developers官方網站 : https://developers.line.biz/en/
 
-
+- 1. 進入LINE Developer後點選右上角的Log in 並以你的LINE帳號登入
+- 2. 輸入開發者信息
+- 3. 選擇「Create New Provider」
+######### Provider可想像成是一個公司或是團隊層級的帳號，LINE Bot會被綁在這組Provider帳號底下，若我們只是想嘗試建置Bot，可輸入任何一個尚未被使用過的名稱即可。
 
 ## 參考資料
+- 使用Node.js建置你的第一個LINE BOT : https://medium.com/pyradise/%E4%BD%BF%E7%94%A8node-js%E5%BB%BA%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E5%80%8Bline-bot-590b7ba7a28a
+- How To Install Node.js on Ubuntu 16.04 : https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
 - How to install Node.js and npm on Ubuntu 18.04 : https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 - 第 17 天：安裝 Node.js 及 NPM : https://ithelp.ithome.com.tw/articles/10194339
 - LineBot+Python，輕鬆建立聊天機器人 : https://yaoandy107.github.io/line-bot-tutorial/
