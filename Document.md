@@ -88,8 +88,25 @@ v10.16.0
 - 1. 進入LINE Developer後點選右上角的Log in 並以你的LINE帳號登入
 - 2. 輸入開發者信息
 - 3. 選擇「Create New Provider」
+
 ## Provider可想像成是一個公司或是團隊層級的帳號，LINE Bot會被綁在這組Provider帳號底下
+
 ## 若我們只是想嘗試建置Bot，可輸入任何一個尚未被使用過的名稱即可
+
+- 4. 當Provider建立好後，進入Provider的頁面內，點選「Create Channel」
+- 5. 當Channel成功被建立後，在Provider list進入「Channel Settings」
+
+## 在Channel Settings畫面裡總共有三個重要的資料要找到：
+## Channel ID
+## Channel Secret
+## Channel Access Token
+
+## 前面兩項初次進入時即可直接看到，唯獨Channel Access Token需先點選右手邊的「Issue」按鈕設定Token過期時效（若怕太快過期可設定24小時）後，才可取得：
+
+## 「Channel Secret, Channel Access Token是讓Line官方能辨識Bot的重要資訊，需注意這些資訊請勿外流給其他人知道，否則他人將有機會偽造你的Bot回傳訊息給你的使用者。」
+
+
+## 7.撰寫LINE Bot Node.js程式
 
 ## 參考資料
 - 使用Node.js建置你的第一個LINE BOT : https://medium.com/pyradise/%E4%BD%BF%E7%94%A8node-js%E5%BB%BA%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E5%80%8Bline-bot-590b7ba7a28a
