@@ -1,4 +1,4 @@
-## Node.js 及 NPM
+## 1.Node.js 及 NPM
 - Node.js 官網 : https://nodejs.org
 
 - Node.js 官方現在提供兩種版本：LTS 及 Current
@@ -7,11 +7,11 @@
 
 - 對比於 PHP (程式語言) 和 Composer (相依管理工具) 之間的關係，在 Javascript 的世界裡就是 Node.js 和 NPM
 
-## Nodejs的LINE Messaging API SDK使用LINE Messaging API輕鬆開發機器人
+## 2.Nodejs的LINE Messaging API SDK使用LINE Messaging API輕鬆開發機器人
 - Node.js 8或更高版本
 
 
-## 其他語言架設範例，請參閱以下 LINE Bot SDK repositories
+## 3.其他語言架設範例，請參閱以下 LINE Bot SDK repositories
 - PHP : https://github.com/line/line-bot-sdk-php
 - Go : https://github.com/line/line-bot-sdk-go
 - Perl : https://github.com/line/line-bot-sdk-perl
@@ -20,14 +20,14 @@
 - Node.js : https://github.com/line/line-bot-sdk-nodejs
 
 
-## step 1 : 更新 Ubuntu
-#### nodejs使用apt包管理器安裝：
+## 4.更新 Ubuntu
+- nodejs使用apt包管理器安裝：
 ```
 # apt-get update
 # apt-get install nodejs
 ```
 
-#### 來自Ubuntu存儲庫的Node.js。要驗證安裝，請執行以下命令：
+- 來自Ubuntu存儲庫的Node.js。要驗證安裝，請執行以下命令：
 ```
 # nodejs --version
 ```
@@ -58,7 +58,7 @@ v8.10.0
 # apt-get install build-essential
 ```
 
-step 2 : 從NodeSource存儲庫安裝Node.js
+## 5.從NodeSource存儲庫安裝Node.js
 - NodeSource是一家專注於提供企業級Node支持的公司，他們維護一個包含最新版本Node.js的存儲庫。
 
 
