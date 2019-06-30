@@ -110,6 +110,7 @@ v10.16.0
 ## 7.撰寫LINE Bot Node.js程式
 
 ## 參考資料
+- 【Maso的萬事屋】10分鐘用Python做LineBot聊天機器人｜程式設計 : https://www.youtube.com/watch?v=i8ncIcJs-LA
 - 使用Node.js建置你的第一個LINE BOT : https://medium.com/pyradise/%E4%BD%BF%E7%94%A8node-js%E5%BB%BA%E7%BD%AE%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E5%80%8Bline-bot-590b7ba7a28a
 - How To Install Node.js on Ubuntu 16.04 : https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
 - How to install Node.js and npm on Ubuntu 18.04 : https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
