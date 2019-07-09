@@ -110,6 +110,7 @@ v10.16.0
 ## 7.撰寫LINE Bot Node.js程式
 
 ## 參考資料
+- Line Bot Notify 聊天機器人 使用 ASP.net VB.net : http://cheng-min-i-taiwan.blogspot.com/2018/02/line-bot-notify-aspnet-vbnet.html
 - Line Bot 開發教學，基礎範例程式碼 (PHP) – 輕量版 LINEBotTiny.php : https://blog.reh.tw/archives/988
 - LINE Messaging API – LINE 對話機器人 : https://blog.hoyo.idv.tw/?p=5004
 - 【Maso的萬事屋】10分鐘用Python做LineBot聊天機器人｜程式設計 : https://www.youtube.com/watch?v=i8ncIcJs-LA
